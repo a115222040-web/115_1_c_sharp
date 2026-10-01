@@ -24,7 +24,18 @@ namespace tutorial2_3
 
         private void label7_Click(object sender, EventArgs e)
         {
+            translateLabel.Text = "Buongiorno!";
+        }
 
+        private void label7_Click_1(object sender, EventArgs e)
+        {
+            translateLabel.Text = "Buenos dias";
+
+        }
+
+        private void germanyButton_Click(object sender, EventArgs e)
+        {
+            translateLabel.Text = "Guten Mogen";
         }
     }
 }
