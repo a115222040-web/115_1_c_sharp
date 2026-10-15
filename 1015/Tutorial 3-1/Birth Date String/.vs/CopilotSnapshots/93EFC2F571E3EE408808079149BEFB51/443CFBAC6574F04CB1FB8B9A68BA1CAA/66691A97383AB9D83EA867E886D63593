@@ -1,0 +1,206 @@
+﻿namespace Birth_Date_String
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.dayOfWeekTextBox = new System.Windows.Forms.TextBox();
+            this.monthTextBox = new System.Windows.Forms.TextBox();
+            this.dayOfMonthTextBox = new System.Windows.Forms.TextBox();
+            this.yearTextBox = new System.Windows.Forms.TextBox();
+            this.dayOfWeekPromptLabel = new System.Windows.Forms.Label();
+            this.monthPromptLabel = new System.Windows.Forms.Label();
+            this.dayOfMonthPromptLabel = new System.Windows.Forms.Label();
+            this.yearPromptLabel = new System.Windows.Forms.Label();
+            this.dateOutputLabel = new System.Windows.Forms.Label();
+            this.showDateButton = new System.Windows.Forms.Button();
+            this.clearButton = new System.Windows.Forms.Button();
+            this.exitButton = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            //
+            // 以下為欄位配置與樣式設定
+            // 每個輸入欄位使用相同字型與大小，並以足夠的空間顯示完整文字
+            //
+            // dayOfWeekTextBox
+            // 控制項：輸入星期（文字）
+            this.dayOfWeekTextBox.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.dayOfWeekTextBox.Location = new System.Drawing.Point(260, 18);
+            this.dayOfWeekTextBox.Name = "dayOfWeekTextBox";
+            this.dayOfWeekTextBox.Size = new System.Drawing.Size(240, 55);
+            this.dayOfWeekTextBox.TabIndex = 1;
+            this.dayOfWeekTextBox.TextChanged += new System.EventHandler(this.dayOfWeekTextBox_TextChanged);
+            //
+            // monthTextBox
+            // 控制項：輸入月份名稱（文字）
+            this.monthTextBox.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.monthTextBox.Location = new System.Drawing.Point(260, 78);
+            this.monthTextBox.Name = "monthTextBox";
+            this.monthTextBox.Size = new System.Drawing.Size(240, 55);
+            this.monthTextBox.TabIndex = 3;
+            //
+            // dayOfMonthTextBox
+            // 控制項：輸入日（數字）
+            this.dayOfMonthTextBox.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.dayOfMonthTextBox.Location = new System.Drawing.Point(260, 138);
+            this.dayOfMonthTextBox.Name = "dayOfMonthTextBox";
+            this.dayOfMonthTextBox.Size = new System.Drawing.Size(240, 55);
+            this.dayOfMonthTextBox.TabIndex = 5;
+            //
+            // yearTextBox
+            // 控制項：輸入年份（數字）
+            this.yearTextBox.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.yearTextBox.Location = new System.Drawing.Point(260, 198);
+            this.yearTextBox.Name = "yearTextBox";
+            this.yearTextBox.Size = new System.Drawing.Size(240, 55);
+            this.yearTextBox.TabIndex = 7;
+            //
+            // dayOfWeekPromptLabel
+            // 標籤：說明使用者應輸入的內容
+            this.dayOfWeekPromptLabel.AutoSize = true;
+            this.dayOfWeekPromptLabel.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.dayOfWeekPromptLabel.Location = new System.Drawing.Point(20, 20);
+            this.dayOfWeekPromptLabel.Name = "dayOfWeekPromptLabel";
+            this.dayOfWeekPromptLabel.Size = new System.Drawing.Size(200, 45);
+            this.dayOfWeekPromptLabel.TabIndex = 0;
+            this.dayOfWeekPromptLabel.Text = "輸入星期幾";
+            //
+            // monthPromptLabel
+            // 標籤：說明月份輸入欄位
+            this.monthPromptLabel.AutoSize = true;
+            this.monthPromptLabel.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.monthPromptLabel.Location = new System.Drawing.Point(20, 80);
+            this.monthPromptLabel.Name = "monthPromptLabel";
+            this.monthPromptLabel.Size = new System.Drawing.Size(236, 45);
+            this.monthPromptLabel.TabIndex = 2;
+            this.monthPromptLabel.Text = "輸入月份名稱";
+            //
+            // dayOfMonthPromptLabel
+            // 標籤：說明日（數字）輸入欄位
+            this.dayOfMonthPromptLabel.AutoSize = true;
+            this.dayOfMonthPromptLabel.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.dayOfMonthPromptLabel.Location = new System.Drawing.Point(20, 140);
+            this.dayOfMonthPromptLabel.Name = "dayOfMonthPromptLabel";
+            this.dayOfMonthPromptLabel.Size = new System.Drawing.Size(452, 45);
+            this.dayOfMonthPromptLabel.TabIndex = 4;
+            this.dayOfMonthPromptLabel.Text = "輸入月份中的日期（數字）";
+            //
+            // yearPromptLabel
+            // 標籤：說明年份輸入欄位
+            this.yearPromptLabel.AutoSize = true;
+            this.yearPromptLabel.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.yearPromptLabel.Location = new System.Drawing.Point(20, 200);
+            this.yearPromptLabel.Name = "yearPromptLabel";
+            this.yearPromptLabel.Size = new System.Drawing.Size(164, 45);
+            this.yearPromptLabel.TabIndex = 6;
+            this.yearPromptLabel.Text = "輸入年份";
+            //
+            // dateOutputLabel
+            // 用於顯示組合後的出生日期字串，置中顯示
+            this.dateOutputLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.dateOutputLabel.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.dateOutputLabel.Location = new System.Drawing.Point(20, 260);
+            this.dateOutputLabel.Name = "dateOutputLabel";
+            this.dateOutputLabel.Size = new System.Drawing.Size(480, 50);
+            this.dateOutputLabel.TabIndex = 8;
+            this.dateOutputLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            //
+            // 操作按鈕群組：顯示、清除、結束
+            //
+            // showDateButton
+            // 按下時應組合並在上方標籤顯示完整日期字串
+            this.showDateButton.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.showDateButton.Location = new System.Drawing.Point(40, 330);
+            this.showDateButton.Name = "showDateButton";
+            this.showDateButton.Size = new System.Drawing.Size(130, 45);
+            this.showDateButton.TabIndex = 9;
+            this.showDateButton.Text = "顯示日期";
+            this.showDateButton.UseVisualStyleBackColor = true;
+            this.showDateButton.Click += new System.EventHandler(this.showDateButton_Click);
+            //
+            // clearButton
+            // 按下時清空所有輸入欄位與輸出標籤
+            this.clearButton.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.clearButton.Location = new System.Drawing.Point(190, 330);
+            this.clearButton.Name = "clearButton";
+            this.clearButton.Size = new System.Drawing.Size(130, 45);
+            this.clearButton.TabIndex = 10;
+            this.clearButton.Text = "清除";
+            this.clearButton.UseVisualStyleBackColor = true;
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
+            //
+            // exitButton
+            // 按下時關閉表單（結束程式）
+            this.exitButton.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.exitButton.Location = new System.Drawing.Point(340, 330);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(130, 45);
+            this.exitButton.TabIndex = 11;
+            this.exitButton.Text = "結束";
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
+            // Form1
+            // 主表單設定：固定字型以確保版面一致性
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(524, 400);
+            this.Controls.Add(this.exitButton);
+            this.Controls.Add(this.clearButton);
+            this.Controls.Add(this.showDateButton);
+            this.Controls.Add(this.dateOutputLabel);
+            this.Controls.Add(this.yearTextBox);
+            this.Controls.Add(this.yearPromptLabel);
+            this.Controls.Add(this.dayOfMonthTextBox);
+            this.Controls.Add(this.dayOfMonthPromptLabel);
+            this.Controls.Add(this.monthTextBox);
+            this.Controls.Add(this.monthPromptLabel);
+            this.Controls.Add(this.dayOfWeekTextBox);
+            this.Controls.Add(this.dayOfWeekPromptLabel);
+            this.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Name = "Form1";
+            this.Text = "出生日期字串";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TextBox dayOfWeekTextBox;
+        private System.Windows.Forms.TextBox monthTextBox;
+        private System.Windows.Forms.TextBox dayOfMonthTextBox;
+        private System.Windows.Forms.TextBox yearTextBox;
+        private System.Windows.Forms.Label dayOfWeekPromptLabel;
+        private System.Windows.Forms.Label monthPromptLabel;
+        private System.Windows.Forms.Label dayOfMonthPromptLabel;
+        private System.Windows.Forms.Label yearPromptLabel;
+        private System.Windows.Forms.Label dateOutputLabel;
+        private System.Windows.Forms.Button showDateButton;
+        private System.Windows.Forms.Button clearButton;
+        private System.Windows.Forms.Button exitButton;
+    }
+}
+
