@@ -1,0 +1,367 @@
+﻿15 matches found: 
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\1015\Tutorial 3-1\Birth Date String\Birth Date String\Properties\AssemblyInfo.cs>
+    File: `1015/Tutorial 3-1/Birth Date String/Birth Date String/Properties/AssemblyInfo.cs`
+```c#
+/*...*/using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+[assembly: AssemblyTitle("Birth Date String")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyProduct("Birth Date String")]
+[assembly: AssemblyCopyright("Copyright © Microsoft 2010")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible 
+// to COM components.  If you need to access a type in this assembly from 
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(false)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("d57bac98-29fc-48c5-96b4-1c310094bfb9")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+/*...*/
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\1015\Tutorial 3-1\Birth Date String\Birth Date String\Properties\AssemblyInfo.cs>
+    // Lines 27 to 36
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\1015\Tutorial 3-1\Birth Date String\Birth Date String\Form1.cs>
+    // Lines 48 to 53
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\1015\Tutorial 3-1\Birth Date String\Birth Date String\Form1.cs>
+    // Lines 49 to 53
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\1015\Tutorial 3-1\Birth Date String\Birth Date String\obj\x86\Debug\Birth Date String.csproj.FileListAbsolute.txt>
+    // Lines 24 to 28
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\1015\Tutorial 3-1\Birth Date String\Birth Date String\obj\x86\Debug\Birth Date String.csproj.FileListAbsolute.txt>
+    // Lines 4 to 8
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\115_10_01\tutorial2-3\tutorial2-3\Form1.cs>
+    File: `115_10_01/tutorial2-3/tutorial2-3/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace tutorial2_3
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            translateLabel.Text = "Buongiorno!";
+        }
+
+        private void label7_Click_1(object sender, EventArgs e)
+        {
+            translateLabel.Text = "Buenos dias";
+
+        }
+
+        private void germanyButton_Click(object sender, EventArgs e)
+        {
+            translateLabel.Text = "Guten Mogen";
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\115_10_01\tutorial2-3\tutorial2-3\Form1.cs>
+    File: `115_10_01/tutorial2-3/tutorial2-3/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace tutorial2_3
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            translateLabel.Text = "Buongiorno!";
+        }
+
+        private void label7_Click_1(object sender, EventArgs e)
+        {
+            translateLabel.Text = "Buenos dias";
+
+        }
+
+        private void germanyButton_Click(object sender, EventArgs e)
+        {
+            translateLabel.Text = "Guten Mogen";
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\115_10_08\tutorial2_4\tutorial2_4\Form1.cs>
+    File: `115_10_08/tutorial2_4/tutorial2_4/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace tutorial2_4
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            countryLabel.Text = "german";
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void finlandPictureBox2_Click(object sender, EventArgs e)
+        {
+            countryLabel.Text = "finland";
+        }
+
+        private void francePictureBox_Click(object sender, EventArgs e)
+        {
+            countryLabel.Text = "france";
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\115_0924\Tutorial_2_2\Tutorial_2_2\Form1.cs>
+    File: `115_0924/Tutorial_2_2/Tutorial_2_2/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Tutorial_2_2
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void messageButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("中秋節快樂");
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\115_0924\Tutorial_2_2\Tutorial_2_2\Form1.cs>
+    File: `115_0924/Tutorial_2_2/Tutorial_2_2/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Tutorial_2_2
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void messageButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("中秋節快樂");
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\917\week_test\week_test\Form1.cs>
+    File: `917/week_test/week_test/Form1.cs`
+```c#
+namespace week_test
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\115_10_01\tutorial2_4\tutorial2_4\Form1.cs>
+    File: `115_10_01/tutorial2_4/tutorial2_4/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace tutorial2_4
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\1015\Tutorial 3-2\Fuel Economy\Fuel Economy\Form1.cs>
+    File: `1015/Tutorial 3-2/Fuel Economy/Fuel Economy/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Fuel_Economy
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\917\week_test\week_test\Program.cs>
+    File: `917/week_test/week_test/Program.cs`
+```c#
+namespace week_test
+{
+    internal static class Program
+    {
+        /// <summary>
+        ///  The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+            ApplicationConfiguration.Initialize();
+            Application.Run(new Form1());
+        }
+    }
+}
+```
+</match>
