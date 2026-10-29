@@ -1,0 +1,68 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Test_Score_Average
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {const double HIGH_SCORE = 95; // Minimum test score
+            const double MAX_SCORE = 100.0; // Maximum test score
+            // Validate the input and calculate the average.
+            if (double.TryParse(test1TextBox.Text, out test1) &&
+                double.TryParse(test2TextBox.Text, out test2) &&
+                double.TryParse(test3TextBox.Text, out test3))
+            {
+                // Check if the scores are within the valid range.
+                if (test1 >= MIN_SCORE && test1 <= MAX_SCORE &&
+                    test2 >= MIN_SCORE && test2 <= MAX_SCORE &&
+                    test3 >= MIN_SCORE && test3 <= MAX_SCORE)
+                {
+                    // Calculate the average.
+                    average = (test1 + test2 + test3) / 3;
+                    // Display the average in the averageLabel control.
+                    averageLabel.Text = average.ToString("n2");
+                }
+                else
+                {
+                    MessageBox.Show($"Please enter scores between {MIN_SCORE} and {MAX_SCORE}.", "Invalid Input");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please enter valid numeric values for all three tests.", "Invalid Input");
+            }
+            double test1, test2, test3, average;
+           
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // Clear the TextBoxes and the averageLabel control.
+            test1TextBox.Text = "";
+            test2TextBox.Text = "";
+            test3TextBox.Text = "";
+            averageLabel.Text = "";
+
+            // Reset the focus to test1.
+            test1TextBox.Focus();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
