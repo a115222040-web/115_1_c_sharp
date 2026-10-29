@@ -1,0 +1,79 @@
+﻿using System;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Test_Score_Average
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            // 初始化表單上的所有控制項。
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            // 設定成績允許的最小值與最大值。
+            const double MIN_SCORE = 0.0;
+            const double MAX_SCORE = 100.0;
+            double test1, test2, test3, average;
+
+            // 先確認三個輸入值都是有效的數字。
+            if (double.TryParse(test1TextBox.Text, out test1) &&
+                double.TryParse(test2TextBox.Text, out test2) &&
+                double.TryParse(test3TextBox.Text, out test3))
+            {
+                // 確認三個成績都在允許的範圍內。
+                if (test1 >= MIN_SCORE && test1 <= MAX_SCORE &&
+                    test2 >= MIN_SCORE && test2 <= MAX_SCORE &&
+                    test3 >= MIN_SCORE && test3 <= MAX_SCORE)
+                {
+                    // 計算三次測驗成績的平均值。
+                    average = (test1 + test2 + test3) / 3;
+                    // 將平均值顯示在平均成績標籤中。
+                    averageLabel.Text = average.ToString("n2");
+
+                    // 檢查平均成績是否不及格
+                    if (average < 60)
+                    {
+                        MessageBox.Show("平均成績不及格。", "成績通知");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show($"請輸入介於 {MIN_SCORE} 到 {MAX_SCORE} 之間的成績。", "輸入錯誤");
+                }
+            }
+            else
+            {
+                MessageBox.Show("請為三次測驗輸入有效的數字。", "輸入錯誤");
+            }
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // 清除三個輸入框與平均成績標籤的內容。
+            test1TextBox.Text = "";
+            test2TextBox.Text = "";
+            test3TextBox.Text = "";
+            averageLabel.Text = "";
+
+            // 清除後將游標移回第一個輸入框。
+            test1TextBox.Focus();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // 關閉目前的表單。
+            this.Close();
+        }
+    }
+}
