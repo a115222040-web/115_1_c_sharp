@@ -38,8 +38,7 @@
             // 
             // promptLabel
             // 
-            this.promptLabel.AutoSize = false;
-            this.promptLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.promptLabel.Font = new System.Drawing.Font("微軟正黑體", 18F);
             this.promptLabel.Location = new System.Drawing.Point(30, 25);
             this.promptLabel.Name = "promptLabel";
             this.promptLabel.Size = new System.Drawing.Size(590, 45);
@@ -49,24 +48,24 @@
             // 
             // cityListBox
             // 
+            this.cityListBox.Font = new System.Drawing.Font("微軟正黑體", 18F);
             this.cityListBox.FormattingEnabled = true;
+            this.cityListBox.ItemHeight = 45;
             this.cityListBox.Items.AddRange(new object[] {
             "丹佛",
             "檀香山",
             "明尼阿波利斯",
             "紐約",
             "舊金山"});
-            this.cityListBox.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
-            this.cityListBox.ItemHeight = 31;
             this.cityListBox.Location = new System.Drawing.Point(30, 90);
             this.cityListBox.Name = "cityListBox";
-            this.cityListBox.Size = new System.Drawing.Size(590, 159);
+            this.cityListBox.Size = new System.Drawing.Size(590, 139);
             this.cityListBox.TabIndex = 1;
+            this.cityListBox.SelectedIndexChanged += new System.EventHandler(this.cityListBox_SelectedIndexChanged);
             // 
             // outputDescriptionLabel
             // 
-            this.outputDescriptionLabel.AutoSize = false;
-            this.outputDescriptionLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.outputDescriptionLabel.Font = new System.Drawing.Font("微軟正黑體", 18F);
             this.outputDescriptionLabel.Location = new System.Drawing.Point(30, 280);
             this.outputDescriptionLabel.Name = "outputDescriptionLabel";
             this.outputDescriptionLabel.Size = new System.Drawing.Size(120, 45);
@@ -77,7 +76,7 @@
             // timeZoneLabel
             // 
             this.timeZoneLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.timeZoneLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.timeZoneLabel.Font = new System.Drawing.Font("微軟正黑體", 18F);
             this.timeZoneLabel.Location = new System.Drawing.Point(165, 280);
             this.timeZoneLabel.Name = "timeZoneLabel";
             this.timeZoneLabel.Size = new System.Drawing.Size(455, 45);
@@ -86,7 +85,7 @@
             // 
             // okButton
             // 
-            this.okButton.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.okButton.Font = new System.Drawing.Font("微軟正黑體", 18F);
             this.okButton.Location = new System.Drawing.Point(165, 350);
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(135, 55);
@@ -97,7 +96,7 @@
             // 
             // exitButton
             // 
-            this.exitButton.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.exitButton.Font = new System.Drawing.Font("微軟正黑體", 18F);
             this.exitButton.Location = new System.Drawing.Point(335, 350);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(135, 55);
@@ -108,7 +107,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(21F, 45F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(650, 440);
             this.Controls.Add(this.exitButton);
@@ -117,12 +116,11 @@
             this.Controls.Add(this.outputDescriptionLabel);
             this.Controls.Add(this.cityListBox);
             this.Controls.Add(this.promptLabel);
-            this.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.Font = new System.Drawing.Font("微軟正黑體", 18F);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "時區查詢";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
