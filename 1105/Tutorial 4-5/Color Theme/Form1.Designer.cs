@@ -58,7 +58,7 @@
             this.normalRadioButton.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.normalRadioButton.Location = new System.Drawing.Point(30, 170);
             this.normalRadioButton.Name = "normalRadioButton";
-            this.normalRadioButton.Size = new System.Drawing.Size(150, 35);
+            this.normalRadioButton.Size = new System.Drawing.Size(189, 50);
             this.normalRadioButton.TabIndex = 3;
             this.normalRadioButton.TabStop = true;
             this.normalRadioButton.Text = "恢復正常";
@@ -71,7 +71,7 @@
             this.whiteRadioButton.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.whiteRadioButton.Location = new System.Drawing.Point(30, 125);
             this.whiteRadioButton.Name = "whiteRadioButton";
-            this.whiteRadioButton.Size = new System.Drawing.Size(105, 35);
+            this.whiteRadioButton.Size = new System.Drawing.Size(117, 50);
             this.whiteRadioButton.TabIndex = 2;
             this.whiteRadioButton.Text = "白色";
             this.whiteRadioButton.UseVisualStyleBackColor = true;
@@ -83,7 +83,7 @@
             this.redRadioButton.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.redRadioButton.Location = new System.Drawing.Point(30, 80);
             this.redRadioButton.Name = "redRadioButton";
-            this.redRadioButton.Size = new System.Drawing.Size(105, 35);
+            this.redRadioButton.Size = new System.Drawing.Size(117, 50);
             this.redRadioButton.TabIndex = 1;
             this.redRadioButton.Text = "紅色";
             this.redRadioButton.UseVisualStyleBackColor = true;
@@ -95,7 +95,7 @@
             this.yellowRadioButton.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.yellowRadioButton.Location = new System.Drawing.Point(30, 35);
             this.yellowRadioButton.Name = "yellowRadioButton";
-            this.yellowRadioButton.Size = new System.Drawing.Size(105, 35);
+            this.yellowRadioButton.Size = new System.Drawing.Size(117, 50);
             this.yellowRadioButton.TabIndex = 0;
             this.yellowRadioButton.Text = "黃色";
             this.yellowRadioButton.UseVisualStyleBackColor = true;
@@ -114,14 +114,15 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(21F, 46F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(460, 345);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.colorGroupBox);
             this.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Name = "Form1";
-            this.Text = "色彩主題";
+            this.Text = "                                                                                 " +
+    "                                   ";
             this.colorGroupBox.ResumeLayout(false);
             this.colorGroupBox.PerformLayout();
             this.ResumeLayout(false);
