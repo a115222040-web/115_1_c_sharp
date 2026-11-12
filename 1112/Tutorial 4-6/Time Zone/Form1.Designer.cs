@@ -38,62 +38,71 @@
             // 
             // promptLabel
             // 
-            this.promptLabel.AutoSize = true;
-            this.promptLabel.Location = new System.Drawing.Point(5, 9);
+            this.promptLabel.AutoSize = false;
+            this.promptLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.promptLabel.Location = new System.Drawing.Point(30, 25);
             this.promptLabel.Name = "promptLabel";
-            this.promptLabel.Size = new System.Drawing.Size(221, 13);
+            this.promptLabel.Size = new System.Drawing.Size(590, 45);
             this.promptLabel.TabIndex = 0;
-            this.promptLabel.Text = "Select a city and I will give you the time zone.";
+            this.promptLabel.Text = "請選擇城市，我會顯示該城市的時區。";
+            this.promptLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // cityListBox
             // 
             this.cityListBox.FormattingEnabled = true;
             this.cityListBox.Items.AddRange(new object[] {
-            "Denver",
-            "Honolulu",
-            "Minneapolis",
-            "New York",
-            "San Francisco"});
-            this.cityListBox.Location = new System.Drawing.Point(55, 31);
+            "丹佛",
+            "檀香山",
+            "明尼阿波利斯",
+            "紐約",
+            "舊金山"});
+            this.cityListBox.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.cityListBox.ItemHeight = 31;
+            this.cityListBox.Location = new System.Drawing.Point(30, 90);
             this.cityListBox.Name = "cityListBox";
-            this.cityListBox.Size = new System.Drawing.Size(120, 69);
+            this.cityListBox.Size = new System.Drawing.Size(590, 159);
             this.cityListBox.TabIndex = 1;
             // 
             // outputDescriptionLabel
             // 
-            this.outputDescriptionLabel.AutoSize = true;
-            this.outputDescriptionLabel.Location = new System.Drawing.Point(32, 113);
+            this.outputDescriptionLabel.AutoSize = false;
+            this.outputDescriptionLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.outputDescriptionLabel.Location = new System.Drawing.Point(30, 280);
             this.outputDescriptionLabel.Name = "outputDescriptionLabel";
-            this.outputDescriptionLabel.Size = new System.Drawing.Size(61, 13);
+            this.outputDescriptionLabel.Size = new System.Drawing.Size(120, 45);
             this.outputDescriptionLabel.TabIndex = 2;
-            this.outputDescriptionLabel.Text = "Time Zone:";
+            this.outputDescriptionLabel.Text = "時區：";
+            this.outputDescriptionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // timeZoneLabel
             // 
             this.timeZoneLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.timeZoneLabel.Location = new System.Drawing.Point(99, 108);
+            this.timeZoneLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.timeZoneLabel.Location = new System.Drawing.Point(165, 280);
             this.timeZoneLabel.Name = "timeZoneLabel";
-            this.timeZoneLabel.Size = new System.Drawing.Size(100, 23);
+            this.timeZoneLabel.Size = new System.Drawing.Size(455, 45);
             this.timeZoneLabel.TabIndex = 3;
             this.timeZoneLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // okButton
             // 
-            this.okButton.Location = new System.Drawing.Point(37, 150);
+            this.okButton.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.okButton.Location = new System.Drawing.Point(165, 350);
             this.okButton.Name = "okButton";
-            this.okButton.Size = new System.Drawing.Size(75, 23);
+            this.okButton.Size = new System.Drawing.Size(135, 55);
             this.okButton.TabIndex = 4;
-            this.okButton.Text = "OK";
+            this.okButton.Text = "確定";
             this.okButton.UseVisualStyleBackColor = true;
             this.okButton.Click += new System.EventHandler(this.okButton_Click);
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(118, 150);
+            this.exitButton.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.exitButton.Location = new System.Drawing.Point(335, 350);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(75, 23);
+            this.exitButton.Size = new System.Drawing.Size(135, 55);
             this.exitButton.TabIndex = 5;
-            this.exitButton.Text = "Exit";
+            this.exitButton.Text = "離開";
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
@@ -101,15 +110,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(230, 189);
+            this.ClientSize = new System.Drawing.Size(650, 440);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.okButton);
             this.Controls.Add(this.timeZoneLabel);
             this.Controls.Add(this.outputDescriptionLabel);
             this.Controls.Add(this.cityListBox);
             this.Controls.Add(this.promptLabel);
+            this.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
             this.Name = "Form1";
-            this.Text = "Time Zone";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "時區查詢";
             this.ResumeLayout(false);
             this.PerformLayout();
 
